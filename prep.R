@@ -50,6 +50,9 @@ wwwPrep(HugginsPitchScreen = TRUE)
 ## Perception stimuli----
 wwwPrep("perc_stim", is_dir = TRUE)
 
+## Make a folder for outputs
+dir.create("www/outputs")
+
 
 
 
